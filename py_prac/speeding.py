@@ -26,6 +26,7 @@ Example Test Cases:
 
 def speeding_ticket(speed, is_birthday):
     if is_birthday:
+        #Happy Birthday!!!But it is not the reason to drive so fast....
         speed-=5
 
     if speed <= 60:
